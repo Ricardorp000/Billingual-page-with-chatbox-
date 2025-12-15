@@ -1,6 +1,6 @@
 import { GoogleGenAI, Chat } from "@google/genai";
 
-const apiKey = process.env.API_KEY || '';
+const apiKey = process.env.GEMINI_API_KEY;
 const ai = new GoogleGenAI({ apiKey });
 
 export interface ChatMessage {
